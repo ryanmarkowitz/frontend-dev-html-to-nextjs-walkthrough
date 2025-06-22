@@ -1,0 +1,89 @@
+body{
+    /* this changes the background color of body wrapper */
+    background-color:#f4f4f4;
+
+    /* This changes all text color in the body wrapper */
+    color:#555555;
+
+    /* This is a web safe font for our website. Doesn't require importing a font */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight: normal;
+
+    /* same as above, lets us do all of it in one go
+    font: normal 16px Arial, Helvetica, sans-seriff
+    */
+
+    line-height:1.6em;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:blue;
+}
+.container{
+    width: 80%;
+    /* This will automatically center our div */
+    margin:auto;
+}
+
+/* Creating a class that may be used multiple times */
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border:5px red solid;;
+
+    margin-top:20px;
+}
+
+/* I want to style any h1 in the box-1 class */
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style:italic;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul{
+    padding:0px;
+    list-style: none;
+}
+
+.p-box{
+    width: 800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top: 30px;
+    position:relative;
+}
+
+.p-box h1{
+    position:absolute;
+    top:40px;
+}
